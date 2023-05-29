@@ -1,0 +1,46 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.settings {
+    display: flex;
+    justify-content: center;
+}
+.heading {
+    font-size: 4em;
+    margin: 8px;
+}
+.shapesBtn {
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 25%;
+    background-color: bisque;
+    font-size: 1em;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: darkcyan;
+}
+.square {
+    width: 200px;
+    height: 200px;
+    background-color: darkcyan;
+}
+.rectangle {
+    width: 400px;
+    height: 200px;
+    background-color: darkcyan;
+}
+.triangle {
+    width: 0px;
+    height: 0px;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid darkcyan;
+
+}
